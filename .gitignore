@@ -1,0 +1,32 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Node (build.cjs uses no packages, but just in case)
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# Secrets and local settings
+.env
+.env.*
+
+# Exports and backups
+*.zip
+*.bak
+*~
+
+# Optional: the generated pages
+# Uncomment these only if your host runs "node build.cjs" for you on deploy.
+# If you upload the files yourself or deploy straight from git, leave them
+# commented so the pages get committed.
+# brand/
+# product/
+# about/
+# sitemap.xml
