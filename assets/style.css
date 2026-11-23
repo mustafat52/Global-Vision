@@ -119,3 +119,5 @@ section.pb{border-bottom:1px solid var(--bp2)}.pb .w{padding-top:34px;padding-bo
 .bpw{display:flex;justify-content:space-between;align-items:flex-end;gap:28px}.pb .bl{height:64px;max-width:220px;object-fit:contain;background:#fff;padding:10px 16px;border-radius:2px}
 .pg:first-of-type{padding-top:36px}
 @media(max-width:800px){.pb .w{padding-top:22px;padding-bottom:26px}.pb p:not(.bc){font-size:16px}.bpw{flex-direction:column;align-items:flex-start;gap:16px}.pb .bl{height:48px}}
+@media(max-width:800px){.sr{min-width:0}.sr input[type=search]{width:100%;min-width:0}}
+@media(max-width:800px){nav{gap:14px;font-size:13.5px}body{padding-bottom:0}footer{padding-bottom:96px}}
