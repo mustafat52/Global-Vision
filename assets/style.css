@@ -98,3 +98,17 @@ footer{padding:30px 0}.fab{display:none}body{padding-bottom:78px}
 .mb{display:grid;grid-template-columns:1fr 1fr;gap:8px;position:fixed;left:0;right:0;bottom:0;padding:10px 12px calc(10px + env(safe-area-inset-bottom,0px));background:#fff;border-top:1px solid var(--rl);z-index:9}
 .mb a{text-align:center;padding:12px;border-radius:2px;font-weight:600;text-decoration:none;background:var(--ink);color:#fff}.mb a.g{background:#1f9d55}}
 @media(max-width:380px){.st{grid-template-columns:1fr}.st div{padding-left:0;border:0}.ctl b{font-size:28px}}
+/* finder: everything in one frame on desktop */
+.live .rw>span{font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:12.5px;color:var(--ln);text-align:right}
+.live .rw b{font-size:15px}.rw b em{font-style:normal;font-size:10.5px;font-weight:600;color:var(--ink);background:var(--lt);padding:2px 6px;border-radius:2px;margin-left:8px;letter-spacing:.04em;text-transform:uppercase;vertical-align:1px}
+.live .acts .btn,.live .acts button{padding:8px 12px;font-size:13px}.live .lst .nt{margin-top:0}
+@media(max-width:999px){.fh{grid-template-columns:1fr}}
+@media(min-width:1000px){
+.fds{min-height:calc(100vh - 76px);display:flex;align-items:center}
+.fdr{max-width:1320px;width:100%;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:36px;padding:22px 28px;align-items:stretch}
+.fdr h1{font-size:clamp(30px,3.4vw,44px);margin-bottom:14px}.fdr p{display:none}
+.fdr .ctl{gap:4px;max-width:none}.fdr .ctl b{font-size:30px}.fdr input[type=range]{height:26px}
+.fdr .dw{margin-top:14px;padding:8px}.fdr .dw svg{height:auto;max-height:clamp(170px,32vh,300px)}
+.fdr .rt{position:relative;min-height:400px}.fdr .live{position:absolute;inset:0;display:flex;flex-direction:column;padding:16px 18px}
+.fdr .live h2{font-size:22px;margin-bottom:10px}.fdr .lst{flex:1;min-height:0;overflow:auto;padding-right:4px;margin-bottom:4px}.fdr .live .acts{margin:10px 0 6px}.fdr .live small{display:block}}
+@media(min-width:1000px) and (min-height:900px){.fdr p{display:block;margin-bottom:16px}}
