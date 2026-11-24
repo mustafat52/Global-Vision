@@ -151,3 +151,8 @@ input[type=range]:active::-webkit-slider-thumb{height:32px;margin-top:-15px}
 .bi:hover{translate:8px 0}.ac:hover,.lg a:hover{translate:0 -3px}.cg a:hover{translate:4px 0}}
 @media(prefers-reduced-motion:reduce){.hc>*{opacity:1;animation:none}.hbg *,.mqt,.hz,.fab{animation:none!important}.hbg .dim{stroke-dashoffset:0}}
 @media(max-width:800px){.hero{min-height:0}.hbg{width:130vw;right:-48vw;top:12%;transform:none;opacity:.28}.hc{padding:34px 16px 30px}.hero h1{font-size:clamp(36px,10.5vw,48px)}.sub{font-size:16px}.qf{gap:10px}.qf label{flex:1 1 40%}.qf .btn{flex:1 1 100%}.mq a{height:46px;padding:0 14px}.mq img{height:24px}}
+/* hero text anchored to the left of the viewport */
+.hbg{width:min(720px,52vw)}
+.hc{max-width:none;margin:0;padding-left:clamp(22px,6vw,120px);padding-right:22px}.hc>*{max-width:min(640px,48vw)}.hero h1{font-size:clamp(42px,5vw,76px)}
+@media(max-width:800px){.hc{padding:34px 16px 30px}.hc>*{max-width:none}.hbg{width:130vw}}
+@media(min-width:801px){.hbg{top:46%;transform:translateY(-60%)}}
