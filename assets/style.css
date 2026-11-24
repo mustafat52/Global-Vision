@@ -156,3 +156,5 @@ input[type=range]:active::-webkit-slider-thumb{height:32px;margin-top:-15px}
 .hc{max-width:none;margin:0;padding-left:clamp(22px,6vw,120px);padding-right:22px}.hc>*{max-width:min(640px,48vw)}.hero h1{font-size:clamp(42px,5vw,76px)}
 @media(max-width:800px){.hc{padding:34px 16px 30px}.hc>*{max-width:none}.hbg{width:130vw}}
 @media(min-width:801px){.hbg{top:46%;transform:translateY(-60%)}}
+/* cutter always fits between the top of the hero and the logo strip */
+@media(min-width:801px){.hbg{width:min(720px,52vw,calc(100vh - 192px));top:calc(50% - 48px);right:3%;transform:translateY(-50%)}}
